@@ -20,12 +20,12 @@ export class QuoteComponent implements OnInit {
   }
   constructor(){
     this.quote=[
-      new Quote (1,'John wanderi' ,'"You’re only here for a short visit. Don’t hurry, don’t worry. And be sure to smell the flowers along the way."','Catherine',new Date(2003,4)),
-      new Quote (2,'Jeff Koinange','"A man who dares to waste one hour of time has not discovered the value of life."','Blessing',new Date(2016,6)),
-      new Quote (3,'Brio njeri','"If life were predictable it would cease to be life, and be without flavor."','Favour',new Date(2018,11)),
+      new Quote (1,'John wanderi' ,'"You’re only here for a short visit. Don’t hurry, don’t worry. And be sure to smell the flowers along the way."','John',new Date(2003,4)),
+      new Quote (2,'Jeff Koinange','"A man who dares to waste one hour of time has not discovered the value of life."','Jeff',new Date(2016,6)),
+      new Quote (3,'Brio njeri','"If life were predictable it would cease to be life, and be without flavor."','Brio',new Date(2018,11)),
       
-      new Quote (4,'Total Man','"All of life is peaks and valleys. Don’t let the peaks get too high and the valleys too low."','Catherine',new Date(2015,7)),
-      new Quote (5,'Stone Jiwe','"Find ecstasy in life; the mere sense of living is joy enough."','Catherine',new Date(2016,8)),
+      new Quote (4,'Total Man','"All of life is peaks and valleys. Don’t let the peaks get too high and the valleys too low."','TM',new Date(2015,7)),
+      new Quote (5,'Stone Jiwe','"Find ecstasy in life; the mere sense of living is joy enough."','Stone',new Date(2016,8)),
       ];
   }
   addNewQuote(quote){
