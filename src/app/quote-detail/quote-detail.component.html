@@ -1,0 +1,10 @@
+<p>Submitted by {{quote.person}}</p>
+<p>{{quote.description}}</p>
+<br>
+<span><button (click)=likebuttonclick() class="btn btn-outline-success"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>like</button></span>
+<span>{{numberoflikes}}</span> <br> <br>
+
+<span><button (click)=dislikebuttonclick() class="btn btn-outline-danger"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i>dislike</button></span>
+<span>{{numberofdislikes}}</span><br><br>
+
+<button (click)= 'quoteDelete(true)' class="btn btn-outline-danger"> <i class="fa fa-trash" aria-hidden="true"></i>Delete Quote</button><br>
